@@ -2,10 +2,10 @@
 
 Repository name
 <table><tr><td>
-bts-repository-template
+awesome-coop-cyber
 </td></tr></table>
 
-- [X] Template repository<br>
+- [ ] Template repository<br>
 <sup>emplate repositories let users generate new repositories with the same directory structure and files. [Learn more about template repositories](https://docs.github.com/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template).</sup>
 - [ ] Require contributors to sign off on web-based commits<br>
 <sup>Enabling this setting will require contributors to sign off on commits made through GitHub’s web interface. Signing off is a way for contributors to affirm that their commit complies with the repository's terms, commonly the [Developer Certificate of Origin (DCO)](https://developercertificate.org/). [Learn more about signing off on commits](https://docs.github.com/organizations/managing-organization-settings/managing-the-commit-signoff-policy-for-your-organization).</sup>
@@ -100,4 +100,4 @@ After pull requests are merged, you can have head branches deleted automatically
 
 [Start Discussion]: https://img.shields.io/badge/Start%20Discussion-green.svg
 
-[Discussions]: https://github.com/nreca/bts-repository-template/discussions/new?category=announcements&welcome_text=true
+[Discussions]: https://github.com/nreca/awesome-coop-cyber/discussions/new?category=announcements&welcome_text=true
