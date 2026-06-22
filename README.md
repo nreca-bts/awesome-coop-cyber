@@ -1,45 +1,67 @@
-# nreca-repository-template
-This is a NRECA-BTS repository template, which is to be used as starting point when any GitHub team/member needs to create a new GitHub repository. Once a repository is created using this template a team member needs to apply following changes to be in compliance.
+# Awesome Co-op Cybersecurity & Threat Intelligence
+[![Awesome](https://awesome.re/badge.svg)](https://github.com/sindresorhus/awesome)
 
-## Another repo?
-Before you go further and setup all the compliance requirements for this new repo, a team must think through the need for this repo and weighs in pros and cons for managing one more repo. To help you make this decision, please take a look at the blog post below.
+A curated list of **cybersecurity, ICS/OT security, and threat intelligence resources** 
+specifically tailored to cooperative electric utilities 
+— including training, frameworks, tooling, and community resources.
 
-[Too Many Repositories](https://itwiki.nreca.org/pages/viewpage.action?pageId=229738640)
+😎 Look for the `CoopCyberTechYY` in the tag column for resources highlighted during 
+the NRECA annual Co-op Cyber Tech conference.
 
-## Repository Documentation Compliance Requirements
-Following are repository documentation related compliance requirements.
+## Training & Educational Resources (Free / Pay-What-You-Can / Discounted for Co-ops)
 
-1. Follow the guidelines on repository [naming convention requirements](https://itwiki.nreca.org/pages/viewpage.action?pageId=245729144).
-2. Follow the guidelines on repository [documentation requirements](https://itwiki.nreca.org/display/DSO/GitHub+Repository+Hygiene#GitHubRepositoryHygiene-DocumentRepositories).
-3. New repository visibility must be public. Follow [GitHub guidelines](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/managing-repository-settings/setting-repository-visibility) to make it visible.
-4. New repository must have one or more topic(s) applied. Follow the [guidelines](https://itwiki.nreca.org/display/DSO/GitHub+Repository+Hygiene#GitHubRepositoryHygiene-EstablishRepositoryOwnership).
+| Name                                                                                                   | Description                                                                                                                                                                                                                                                                      | Tags                                         |
+| ------------------------------------------------------------------------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------- |
+| [Meridian Coop Information Security Program Library](https://www.meridian.coop/ispl/)                  | Templates for policies, standards, and cybersecurity documentation for utilities.                                                                                                                                                                                                | `Governance` `Utilities` `Templates`         |
+| [CISA ICS Training](https://www.cisa.gov/resources-tools/programs/ics-training-available-through-cisa) | Free ICS cybersecurity training focused on protecting critical infrastructure.                                                                                                                                                                                                   | `ICS`                                        |
+| [SANS Cyber Aces](https://www.sans.org/cyberaces)                                                      | Foundational cybersecurity courses covering networks, OS, and system administration.                                                                                                                                                                                             | `Beginner` `Fundamentals`                    |
+| [Anti-Syphon Training](https://www.antisyphontraining.com/)                                            | Pay-what-you-can cybersecurity courses and hands-on workshops.                                                                                                                                                                                                                   | `Hands-on` `PayWhatYouCan`                   |
+| [Bite-Size Cyber](https://www.bytesizecyber.com/)                                                      | Short-form, creative cybersecurity training developed by cooperative cybersecurity professionals. Includes presentations, worksheets, handouts, posters, and fun games. **Co-op utility discounts available**, use the contact form on the Byte Size Cyber website to reach out. | `Microlearning` `Phishing` `CoopCyberTech26` |
+| [ThreatFront AI/ICS Research](https://github.com/liscarpari/ThreatFront)                               | Research on ICS and AI security, including emerging threats and defense strategies.                                                                                                                                                                                              | `ICS` `AI` `CoopCyberTech26`                 |
 
 
-#### .gitignore file
-A .gitignore file has already been included in this repository for Visual Studio becasue it was created from NRECA repository template. It is expected from team to keep maintaining this file or have multiple .gitignore files to support their development workflow. 
+## Podcasts
 
-Here are more resources to know more about .gitignore file. 
+| Name                                                                                                                        | Description                                                                | Tags                            |
+| --------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------- | ------------------------------- |
+| [DarkNet Diaries](https://darknetdiaries.com/)                                                                              | Story-driven podcast covering cyber incidents, hacking, and threat actors. | `Threat Intel` `Storytelling`   |
+| [Security You Should Know - CISO Series](https://open.spotify.com/episode/1llryrpvnaPFAWBzrJvHLN?si=G6XBt0w_RhKjVnu2JtB9Bw) | Accessible discussions of core cybersecurity topics and trends.            | `Podcast` `Education` `General` |
 
-[GITHUB Documentation on .gitignore file](https://docs.github.com/en/get-started/getting-started-with-git/ignoring-files).
 
-[GITHUB repository for sample .gitignore file for most frameworks](https://github.com/github/gitignore).
 
-#### README.md file
-Teams can find more details on what needs to be included in a ReadMe file by following [documentation requirements](https://itwiki.nreca.org/display/DSO/GitHub+Repository+Hygiene#GitHubRepositoryHygiene-DocumentRepositories).
+## TTP Ecosystem
 
-## Repository Code-Review Compliance Requirement
+| Name                                                                                                            | Description                                                                                                                                                                                                                                                                                                                                                                     | Tags                              |
+| --------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------- |
+| [MITRE ATT&CK(R)](https://attack.mitre.org/resources/attack-data-and-tools/)                                    | Industry-standard framework for adversary tactics, techniques, and procedures. Includes tooling such as the "Navigator" for exploring the framework, including specific threat actors and campaigns.                                                                                                                                                                            | `Framework` `Threat Intelligence` |
+| [MITRE CTID](https://github.com/center-for-threat-informed-defense)                                             | Projects applying ATT&CK to real-world defense (AI, cloud, fraud).                                                                                                                                                                                                                                                                                                              |                                   |
+| [PushSecurity Browser&Identity Attacks Matrix](https://github.com/pushsecurity/browser-identity-attacks-matrix) | A collection of browser and identity ATT&CK techniques covering SaaS apps, browser-based attacks, identity providers, and phishing. It is intended to be a resource for security researchers, red/blue teams, and penetration testers to learn about and share these attack techniques.                                                                                         | `Identity` `Web Security`         |
+| [PushSecurity Phishing Detection Evasion Techniques](https://github.com/pushsecurity/phishing-techniques)       | This project documents a collection of modern phishing detection evasion techniques, breaking down the methods that attackers use at different stages of a phishing attack culminating in account takeover (i.e. stealing sessions, credentials, etc.). Each stage groups the techniques observed against a phase of activity designed to overcome a layer of security control. | `Phishing`  `Social Engineering`  |
 
-#### pull_request_template.md file
-A pull_request_template.md file has already been included in this repository becasue it was created from NRECA-BTS repository template. It is expected from team to keep using this file to improve their PR review process. Follow the guidelines on [pull_request_template.md](https://docs.github.com/en/communities/using-templates-to-encourage-useful-issues-and-pull-requests/creating-a-pull-request-template-for-your-repository)
 
-#### CODEOWNERS file
-A CODEOWNERS file has already been included in this repository, which needs to be updated to set repository code owners. Follow the guidelines on [CODEOWNERS](https://itwiki.nreca.org/display/DE/GHEC%3A+Teams+Responsibilities#GHEC:TeamsResponsibilities-ManagingCodeOwnershipandOutsideContributors/Collaborators)
 
-#### Branch Protection Rules
-Follow the guidelines on [applying branch protection rules](https://itwiki.nreca.org/display/DSO/Configuring+a+GitHub+Repository+for+Code+Review)
+## Culture & Mental Health
 
-## GitHub Advance Security (GHAS)
+| Name                                                                                     | Description                                                          | Tags                                      |
+| ---------------------------------------------------------------------------------------- | -------------------------------------------------------------------- | ----------------------------------------- |
+| [Copenhagen Burnout Inventory - Cybersecurity](https://github.com/Patrick-Kelley/CBI-CS) | Tools to assess and mitigate burnout in cybersecurity professionals. | `Assessment` `CoopCyberTech25`            |
+| [Sober in Cyber](https://www.soberincyber.org/)                                          | Community supporting sobriety and well-being in cybersecurity.       | `Community` `Support`   `CoopCyberTech25` |
 
-Team needs to follow the guidelines on [secrets management](https://itwiki.nreca.org/display/DSO/GitHub+-+Managing+Secrets+in+Repositories).
 
-Protected data should never be committed to a repository. Follow the guidelines on management of [PHI/PII data](https://itwiki.nreca.org/display/DSO/GitHub+PII+Remediation).
+## DCI / DIB Resources
+
+| Name                                                                                                         | Description                                                                                                                                                                                                                                                                                                    | Tags                               |
+| ------------------------------------------------------------------------------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------- |
+| [DC3](https://www.dc3.mil/Missions/DIB-Cybersecurity/DIB-Cybersecurity-DCISE/)                               | Threat intelligence sharing and analysis for Defense Industrial Base.                                                                                                                                                                                                                                          | `Threat Intelligence` `Government` |
+| [NSA DIB Services](https://www.nsa.gov/About/Cybersecurity-Collaboration-Center/DIB-Cybersecurity-Services/) | Cybersecurity collaboration and services for defense contractors.                                                                                                                                                                                                                                              | `Government`                       |
+| [ND-ISAC](https://ndisac.org/)                                                                               | The National Defense ISAC is the Information Sharing and Analysis Center for the Defense Industrial Base, offering defense sector companies, their suppliers, and related interests a community and forum for sharing cyber and physical security threat indicators, best practices and mitigation strategies. |
+
+
+## Other Awesome Lists
+
+| Name                                                                                            | Description                                                                  | Tags                            |
+| ----------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------- | ------------------------------- |
+| [RawSec CyberSecurity Inventory](https://inventory.raw.pm/tools.html)                           | Extensive categorized index of cybersecurity tools and resources.            | `Tools` `Directory` `Reference` |
+| [Awesome Threat Intelligence](https://github.com/hslatman/awesome-threat-intelligence)          | Comprehensive list of threat intelligence tools, frameworks, and research.   | `Threat Intelligence`           |
+| [Awesome Cybersecurity](https://github.com/okhosting/awesome-cyber-security?tab=readme-ov-file) | Broad cybersecurity resources including training, tools, and certifications. |                                 |
+| [Awesome Security](https://github.com/sbilly/awesome-security?tab=readme-ov-file)               | Large collection of security tools, libraries, and resources.                |                                 |
