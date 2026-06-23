@@ -3,7 +3,7 @@
 
 A curated list of **cybersecurity, ICS/OT security, and threat intelligence resources** 
 specifically tailored to cooperative electric utilities 
-— including training, frameworks, tooling, and community resources.
+— including training, tooling, and community resources.
 
 😎 Look for the `CoopCyberTechYY` in the tag column for resources highlighted during 
 the NRECA annual Co-op Cyber Tech conference.
